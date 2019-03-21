@@ -1,6 +1,4 @@
 /**
- * Hilmi Demirhan
- * CS 55 Java Programming
  * Project 2
  * This program lets playing Rock, Scissors, Paper Game
  *
