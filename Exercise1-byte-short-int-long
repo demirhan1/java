@@ -50,9 +50,25 @@ public class Hello {
         int intValue = 50;
 
         long longTotal = 50000L + 10L * (intValue + shortValue + intValue);
+        short shortTotal=(short) (1000 + 10 * (byteValue + shortValue + intValue));
         System.out.println("longTotal = "+longTotal);
+        System.out.println("shortTotal = " + shortTotal);
 
     }
 }
 
+/*
+Output:
+Hello
+5
+-128
+-64
+-10
+-2
+100
+----------------
+longTotal = 51200
+shortTotal = 1800
+
 Excercise Code Credit: https://www.udemy.com/java-the-complete-java-developer-course/
+*/
