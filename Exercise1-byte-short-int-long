@@ -7,7 +7,7 @@ public class Hello {
     public static void main (String[] args) {
         System.out.println("Hello");
 
-        int myFirstNumber = 5;
+        int myFirstNumber = 8;
         System.out.println(myFirstNumber);
 
         byte myByteValue = -128;
@@ -15,21 +15,21 @@ public class Hello {
         byte myNewByteValue = (byte) (myByteValue/2);
         System.out.println(myNewByteValue);
 
-        short myShortValue = -10;
+        short myShortValue = -18;
         System.out.println(myShortValue);
         short myNewShortValue = (short) (myShortValue/2);
         System.out.println(myNewShortValue/2);
 
-        long myLongValue = 100L;
+        long myLongValue = 300L;
         System.out.println(myLongValue);
 
         System.out.println("----------------");
 
-        byte byteValue = 10;
-        short shortValue = 20;
-        int intValue = 50;
+        byte byteValue = 15;
+        short shortValue = 10;
+        int intValue = 20;
 
-        long longTotal = 50000L + 10L * (intValue + shortValue + intValue);
+        long longTotal = 80000L + 20L * (intValue + shortValue + intValue);
         short shortTotal=(short) (1000 + 10 * (byteValue + shortValue + intValue));
         System.out.println("longTotal = "+longTotal);
         System.out.println("shortTotal = " + shortTotal);
@@ -40,14 +40,14 @@ public class Hello {
 /*
 Output:
 Hello
-5
+8
 -128
 -64
--10
--2
-100
+-18
+-4
+300
 ----------------
-longTotal = 51200
-shortTotal = 1800
+longTotal = 81000
+shortTotal = 1450
 
 */
