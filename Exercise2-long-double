@@ -1,0 +1,30 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        int myInt = 10;
+        float myFloat = 10f;
+        double myDouble = 20d;
+        double myDouble2 = 20.25;
+
+        System.out.println(myInt);
+        System.out.println(myFloat);
+        System.out.println(myDouble);
+        System.out.println(myDouble2);
+
+     //Conversion from pound to kilogram
+        double weightPounds = 210d;
+        double convertToKilogram = weightPounds * 0.45359237d;
+        System.out.println("In Kilogram Your Weight " + convertToKilogram);
+
+    }
+}
+
+/*
+Output:
+10
+10.0
+20.0
+20.25
+In Kilogram Your Weight 95.2543977
+*/
